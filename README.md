@@ -1,6 +1,6 @@
 # pandash
 
-Convert Redash Query Result as Pandas DataFrame
+Convert Redash Query Result to Pandas DataFrame
 
 ## Installation
 

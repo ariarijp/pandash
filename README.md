@@ -13,7 +13,7 @@ $ pip install git+https://github.com/ariarijp/pandash
 ```python
 from redash_dynamic_query import RedashDynamicQuery
 
-from pandash import query_as_df
+from pandash import query_to_df
 
 redash = RedashDynamicQuery(endpoint='https://redash.example.com',
                             apikey='REDASH_API_KEY',

@@ -20,7 +20,7 @@ redash = RedashDynamicQuery(endpoint='https://redash.example.com',
                             data_source_id=1,
                             max_wait=60)
 
-df = query_as_df(redash, 1)
+df = query_to_df(redash, 1)
 ```
 
 ## License

@@ -6,5 +6,4 @@ def query_to_df(redash: RedashDynamicQuery, query_id: int, bind: dict = None) ->
     result = redash.query(query_id, bind)
     data = result['query_result']['data']
     columns = [column['name'] for column in data['columns']]
-    df = pd.DataFrame(data['rows'])
-    return df[columns]
+    return pd.DataFrame(data['rows'], columns=columns)
